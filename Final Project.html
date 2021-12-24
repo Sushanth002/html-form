@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Final Project.css"><!--linking the css file-->
+    <script src="Final Project.js"></script><!--connecting java script file-->
+<title>Hackthon Application Form</title>
+<h1>Hackthon Application Form</h1>
+</head>
+<body>
+    <div class="div">
+    <img id="image" src='https://i.postimg.cc/BbdnsP7Q/vit.jpg' border='0' alt='vit'/><!--This is the image tag-->
+    <form class="form" action=""><!--Form starts from here-->
+     <table><!--arranging the entire form in a table format-->
+      <tr><!--all tr tags represents rows in a table-->
+     <td>First Name:</td><td><input placeholder="ex:steve" id="first" class="firstname" type="text" name="first name" onblur="firstnamefield();" required/><span id="message1"></span></td><!--all td tags represents data in a row-->
+      </tr>
+      <tr>
+     <td>Last Name:</td><td><input placeholder="ex:smith" id="last" class="lastname" type="text" name="last name" onblur="lastnamefield();" required/><span id="message2"></span></td>
+     <tr>
+         <tr>
+             <td>Mobile Number:</td><td><input  type="tel" name="mobilenumber" required placeholder="10 digit number"/></td>
+         </tr>
+         <tr>
+             <td>email:</td><td><input type="email" name="email" placeholder="xxxxx@gmail.com" required/></td>
+         </tr>
+         <tr>
+             <td>Date Of Birth:</td><td><input type="date" name="dob" required/></td>
+         </tr>
+         <tr>
+             <td>Gender:</td>
+            <td><input type="radio" name="gender">Male<input type="radio" name="gender"/>Female</td><!--radio buttons-->
+         </tr>
+         <tr>
+             <td>Skills:</td> <td><input type="checkbox" name="skills"/> Java <!--check boxes-->
+                                  <input type="checkbox" name="skills"/> HTML 
+                                  <input type="checkbox" name="skills"/> css <br>
+                                  <input type="checkbox" name="skills"/> Java Script
+                                  <input type="checkbox" name="skills"/> python
+            </td>
+         </tr>
+         <tr>
+             <td>Current cgpa:</td><td><input type="tel" name="intercgpa" placeholder="points or cgpa" required></td>
+         </tr>
+         <tr>
+             <td></td><td><input type="submit" value="submit" required/></td><!--submit button-->
+         </tr>
+    </table>
+    </form>
+    </div>
+</body>
+</html>

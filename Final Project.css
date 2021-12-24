@@ -1,0 +1,33 @@
+body/*adding style for body*/
+{
+    background-color: white;
+}
+.div/*style for div class */
+{
+  padding: 200px;
+  padding-top: 50px;
+}
+h1/* style for hedding*/
+{
+    
+    text-align: center;
+    
+}
+#image/* style for image id*/
+{
+    float: right;
+    height: 525px;
+    width: 525px;
+    
+}
+.form/*styling the form class */
+{
+    padding: 50px;
+    text-align: left;
+    background-color: indianred;
+    color: cornsilk;
+}
+td/* styling the table data*/
+{
+    padding: 10px;
+}
